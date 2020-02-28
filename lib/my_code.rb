@@ -60,10 +60,10 @@ def reduce_to_all_true(array)
   
   while counter< array.size do
     
-    return false if 
+    return true if 
     counter += 1 
   end
-  return true 
+  return false 
 end
 
 
