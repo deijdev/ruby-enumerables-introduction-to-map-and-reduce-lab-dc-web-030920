@@ -56,16 +56,13 @@ end
 
 
 def reduce_to_all_true(array)
-  counter = 0 
-  
-  while counter< array.size do
-    
-    return true if 
-    counter += 1 
+ counter = 0
+  while counter < array.length do
+      return false if array[counter] == false
+    counter += 1
   end
-  return false
+  return true
 end
-
 
 
 def reduce_to_any_true(array)
