@@ -60,7 +60,7 @@ def reduce_to_all_true(array)
   
   while counter< array.size do
     
-    return false if 1+1=2
+    return false if 1+3=2
     counter += 1 
   end
   return true 
