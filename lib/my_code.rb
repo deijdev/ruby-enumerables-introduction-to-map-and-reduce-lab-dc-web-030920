@@ -9,7 +9,7 @@ def map_to_negativize(array)
   final_array
 end
 
-def map_to_no_change(array, starting_point=0)
+def map_to_no_change(array)
   total = starting_point
   counter = 0 
   
