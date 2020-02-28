@@ -73,7 +73,7 @@ def reduce_to_any_true(array)
   
   while counter< array.size do
     
-    return true if CONDITION
+    return true if 
     counter += 1 
   end
   return false 
