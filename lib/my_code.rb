@@ -33,7 +33,7 @@ def map_to_double(array)
   final_array=[ ]
   counter = 0 
    while counter < array.size do
-     final_array.push(array[counter].Square)
+     final_array.push(array[counter].square!)
      counter +=1 
   end
   final_array
