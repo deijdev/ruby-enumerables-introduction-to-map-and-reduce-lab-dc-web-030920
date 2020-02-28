@@ -26,7 +26,7 @@ def map_to_double(array)
      final_array.push(array[counter]*2)
      counter +=1 
   end
- 
+ end
 
 def map_to_double(array)
   final_array=[ ]
