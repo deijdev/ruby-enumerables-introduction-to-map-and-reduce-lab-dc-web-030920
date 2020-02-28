@@ -6,7 +6,7 @@ def map_to_negativize(array)
      final_array.push()
      counter +=1 
   end
-  
+  final_array
 end
 
 
