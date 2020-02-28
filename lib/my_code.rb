@@ -19,6 +19,9 @@ def map_to_no_change(array)
   final_array
 end
 
+
+
+
 def reduce_to_total(array, starting_point=0)
   total = starting_point
   counter = 0 
